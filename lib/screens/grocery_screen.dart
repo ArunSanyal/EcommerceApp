@@ -21,8 +21,8 @@ class _GroceyScreenState extends State<GroceyScreen> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: 150,
-               width: 150,
+                height: 180,
+               width: 180,
                 child: IconButton(
                   onPressed: () {},
                   icon: ClipRRect(
@@ -30,7 +30,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                     child: Stack(
                       children: [
                         Image.asset(
-                          'assets/image3.png',
+                          'assets/bakery.png',
                           fit: BoxFit.cover,
                         ),
                         Padding(
@@ -42,7 +42,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                                 color: Colors.black,
                                 fontFamily: 'Poppins-Black',
                                 fontSize: 20,
-                                fontWeight: FontWeight.w900,
+                                fontWeight: FontWeight.w700,
                               ),
                             ),
                           ),
@@ -56,8 +56,8 @@ class _GroceyScreenState extends State<GroceyScreen> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: 150,
-                width: 150,
+                height: 180,
+                width: 180,
                 child: IconButton(
                   onPressed: () {},
                   icon: ClipRRect(
@@ -65,7 +65,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                     child: Stack(
                       children: [
                         Image.asset(
-                          'assets/image2.png',
+                          'assets/fruits.png',
                           fit: BoxFit.cover,
                         ),
                         Padding(
@@ -77,7 +77,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                                 color: Colors.black,
                                 fontFamily: 'Poppins-Black',
                                 fontSize: 20,
-                                fontWeight: FontWeight.w900,
+                                fontWeight: FontWeight.w700,
                               ),
                             ),
                           ),
@@ -95,8 +95,8 @@ class _GroceyScreenState extends State<GroceyScreen> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
-              height: 150,
-              width: 150,
+              height: 180,
+              width: 180,
               child: IconButton(
                 onPressed: () {},
                 icon: ClipRRect(
@@ -104,7 +104,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                   child: Stack(
                     children: [
                       Image.asset(
-                        'assets/image4.png',
+                        'assets/vegetables.png',
                         fit: BoxFit.cover,
                       ),
                       Padding(
@@ -116,7 +116,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                               color: Colors.black,
                               fontFamily: 'Poppins-Black',
                               fontSize: 20,
-                              fontWeight: FontWeight.w900,
+                              fontWeight: FontWeight.w700,
                             ),
                           ),
                         ),
@@ -130,8 +130,8 @@ class _GroceyScreenState extends State<GroceyScreen> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
-              height: 150,
-              width: 150,
+              height: 180,
+              width: 180,
               child: IconButton(
                 onPressed: () {},
                 icon: ClipRRect(
@@ -139,7 +139,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                   child: Stack(
                     children: [
                       Image.asset(
-                        'assets/image3.png',
+                        'assets/Diary.png',
                         fit: BoxFit.cover,
                       ),
                       Padding(
@@ -151,7 +151,7 @@ class _GroceyScreenState extends State<GroceyScreen> {
                               color: Colors.black,
                               fontFamily: 'Poppins-Black',
                               fontSize: 20,
-                              fontWeight: FontWeight.w900,
+                              fontWeight: FontWeight.w700,
                             ),
                           ),
                         ),

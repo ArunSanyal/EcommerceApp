@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/sliding_screen.dart';
+
 class NotificationScreen extends StatefulWidget {
   const NotificationScreen({super.key});
 
@@ -12,8 +14,10 @@ class _NotificationScreenState extends State<NotificationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Noti'),
+        title: Center(child: Text('Notifications')),
       ),
+      body: const SlidingScreen(),
     );
+
   }
 }
